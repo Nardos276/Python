@@ -7,7 +7,7 @@ for j in range (len(nums)):
         if nums[i]==0:
             temp=nums[i]
             nums[i]=nums[i+1]
-            nums[i+1]=temp
+            nums[i+1]=temp     
         else:
             continue
 print("Output: ", nums)
